@@ -7,8 +7,7 @@
     </Head>
     <Body class="home" />
 
-    Hi
-    <nuxt-link to="/monkey/">Monkey</nuxt-link>
+    &nbsp;
   </div>
 </template>
 

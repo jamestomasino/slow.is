@@ -7,7 +7,7 @@
     </Head>
     <Body class="home" />
 
-    &nbsp;
+    <h1>Slow.is</h1>
   </div>
 </template>
 

@@ -1,13 +1,18 @@
 :root {
-  --blue: #0075BC;
-	--dark-blue: #005C96;
-	--light-teal: rgb(0, 187, 212, 0.05);
-	--teal: #00BBD4;
-	--dark-teal: #00B5D1;
-	--darker-grey: #444444;
-	--dark-grey: #606060;
-	--light-grey: #CCCCCC;
-	--white: #FFFFFF;
-	--black: #000000;
-	--yellow: #FBD333;
+	/* CSS HSL */
+	--lavender-blush: hsla(350, 64%, 95%, 1);
+	--midnight-green-eagle-green: hsla(195, 70%, 22%, 1);
+	--pacific-blue: hsla(191, 55%, 53%, 1);
+	--fiery-rose: hsla(353, 95%, 69%, 1);
+	--dark-purple: hsla(329, 92%, 9%, 1);
+
+	--base: var(--lavender-blush);
+	--type: var(--dark-purple);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--base: var(--dark-purple);
+		--type: var(--lavender-blush);
+	}
 }

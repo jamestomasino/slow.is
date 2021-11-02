@@ -33,6 +33,20 @@
 
 body {
   font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  line-height: 24px;
   background-color: var(--base);
   color: var(--type);
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 0.5em;
 }

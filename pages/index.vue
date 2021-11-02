@@ -8,6 +8,7 @@
     <Body class="home" />
 
     <h1>Slow.is</h1>
+    <MetaAbout />
   </div>
 </template>
 
